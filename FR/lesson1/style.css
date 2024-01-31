@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main {
+  width: 100vw;
+}
+
+.container {
+  width: 80vw;
+  
+  margin: 0 auto;
+ 
+}
+
+.content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__subtitle{
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+ 
+}
+
+.content__description{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.616);
+}
+
+.content__description span{
+  margin: 1rem 4rem;
+}
+
+
+
+.cards {
+ 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  width: 100%;
+  gap: 1rem;
+
+}
+
+.card img{
+  width: 230px;
+}
+
+.card__name{
+font-size: 1.5rem;
+font-weight: 600;
+margin: 0.5rem;
+}
+
+.card__role{
+  margin:  0.5rem 0;
+  color: rgba(0, 0, 0, 0.671);
+  margin: 0.5rem;
+
+}
+
+.card__description{
+   font-size:small;
+  color: rgba(0, 0, 0, 0.671);
+  margin: 0.5rem;
+
+}
+
+.card__description span{
+  margin: 0.3rem;
+}
+
+/*===============   MEDIA-ЗАПРОС     ==========================*/
+
+@media (max-width: 480px ) {
+
+
+  .content__title {
+    font-size: 0.8rem;
+  }
+
+  .content__subtitle {
+    font-size: 2rem;
+  }
+
+  .content__description {
+    font-size: 1rem;
+
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card__name {
+    font-size: 1.2rem;
+  }
+
+  .card__role {
+    font-size: 1rem;
+  }
+
+  .card__description {
+    font-size: 0.8rem;
+  }
+}
