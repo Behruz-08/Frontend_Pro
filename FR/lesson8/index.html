@@ -11,13 +11,13 @@
 <body>
     <h1>Товары</h1>
     <div class="inputs">
-        <input type="text" id="filterName" placeholder="Фильтр по названию">
-        <input type="number" id="filterPrice" placeholder="Фильтр по цене">
-        <input type="text" id="filterCategory" placeholder="Фильтр по категории">
+        <input type="text" id="filterName" placeholder="Фильтр по названию" oninput="filterProducts()">
+        <input type="number" id="filterPrice" placeholder="Фильтр по цене" oninput="filterProducts()">
+        <input type="text" id="filterCategory" placeholder="Фильтр по категории" oninput="filterProducts()">
 
     </div>
 <div class="products" id="products"></div>
 
-<script src="./script.js"></script>
+<script type="module" src="./script.js"></script>
 </body>
 </html>
