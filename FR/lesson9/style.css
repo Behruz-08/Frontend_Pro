@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+ 
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #5e5c5c25;
+}
+  
+
+ .container{
+    width: 90vw;
+
+    margin: 0 auto;
+} 
+
+#albums{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.album {
+    
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    -webkit-box-shadow: -17px 17px 30px -5px rgba(34, 47, 58, 0.2);
+    -moz-box-shadow: -17px 17px 30px -5px rgba(14, 19, 24, 0.2);
+    box-shadow: -17px 17px 30px -5px rgba(1, 17, 29, 0.2);
+}
+
+.album:hover{
+    background-color: #7a9e9ebd;
+  
+}
+
+
+#postForm {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#postForm input {
+    width: 180px;
+    height: 30px;
+    margin-top: 1rem;
+}
+
+#postForm  button{
+    width: 100px;
+    height: 40px;
+    background-color: #1e2dffa9;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.btn button{
+    width: 100px;
+    height: 40px;
+    background-color: #1e8fffa9;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+#searchInput {
+    width: 200px;
+    height: 40px;
+    color: #0f0f0f;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+
+}
+
+#searchInput::placeholder{
+    color: #bb1818; 
+    font-size: 18px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  padding: 1rem 0;
+}
+
+#pagination a {
+  width: 20px;
+  height: 20px;
+   border: none;
+    background-color:#1E90FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    
+}
+
+
+
+
+
+    
+  
+ 
